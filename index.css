@@ -18,7 +18,7 @@
   
 
 body{
-    background-image: url(Pictures/netflix-animated-movies.jpg);
+    background-image: url(netflix-animated-movies.jpg);
     background-attachment: fixed;
     border: 1px solid black;
     backdrop-filter: blur(10px);
