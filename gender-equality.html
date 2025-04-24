@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>NetStream.com</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+  <link rel="stylesheet" href="index.css">
+  <link rel="stylesheet" href="style.css">
+  <style>
+      *{
+          padding: 0;
+          margin: 0;
+          color: white;
+      }
+      body{
+          height: auto;
+      }
+     /* Base Styles */
+img {
+width: 100%;
+max-width: 560px; /* 35rem = 560px */
+height: auto;
+border-radius: 10px;
+padding: 3rem 1rem 0 1rem; /* top right bottom left */
+display: block;
+margin: 0 auto;
+}
+.imges{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+h2, h3, p {
+font-size: 2rem;
+padding-top: 2rem;
+text-align: center;
+}
+
+/* Tablet and below */
+@media (max-width: 768px) {
+h2, h3, p {
+  font-size: 1.5rem;
+}
+
+img {
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+}
+
+/* Phone screens */
+@media (max-width: 480px) {
+h2, h3, p {
+  font-size: 1.2rem;
+}
+
+img {
+  padding: 2rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+}
+
+/* Large screens */
+@media (min-width: 1200px) {
+h2, h3, p {
+  font-size: 2.5rem;
+}
+
+img {
+  max-width: 400px;
+}
+}
+
+  </style>
+</head>
+<body>
+<div class="main">
+  <nav class="left"></nav>
+  <section class="body">
+      <nav class="top">
+          <h1 class="cedarville-cursive-regular">NetStream</h1>
+          <div class="hd">
+              <h4>
+                  <label style="color: white;" for="entertainment" id="enter">Entertainment</label>
+          <select   style="color: black; background-color: grey;" id="entertainment" onchange="location = this.value;">
+             <option value="">--Select--</option> 
+            <option  value="Movies.html">Movies</option>
+            <option value="series.html">Series</option>
+            <option value="Anime.html">Anime</option>
+            <option value="K-drama.html">K-Drama</option>
+          </select>
+               </h4>
+          <!-- <h4><a href="homee.html"><i class="fa fa-home" id="home_icon"></i></a></h4>
+          
+          <h4><a href="series.html">Series</a></h4>
+      <h4><a href="Anime.html">Anime</a></h4>
+      <h4><a href="K-drama.html">kdrama</a></h4>
+      <h4></a><a href="Movies.html">Movies</a></h4> -->
+      <h4>
+          <label style="color: white;" for="sdg">News</label>
+          <select  style="color: black; background-color: grey;" id="sdg" onchange="location = this.value;">
+            <option value="">--Select-Themes--</option>
+            <option value="quality-education.html">Education </option>
+            <option value="climate-action.html">Climate</option>
+            <option value="gender-equality.html">Gender Equality</option>
+
+          </select>  
+       </h4>
+       <h4>
+        <label for="music" style="color: white;">Music:</label>
+        <select id="music" name="music" style="color: black; background-color: gray;" onchange="window.location.href=this.value;">
+            <option value="malawi.html">Malawi</option>
+            <option value="international.html">International</option>
+        </select>
+    </h4>
+    
+       <h4><a href="homee.html"><i class="fa fa-home" id="home_icon"></i></a></h4>
+      <h4><i class="far fa-user-circle" id="home_icon"></i>
+      </div>
+
+      </nav>
+  </section>
+<body>
+
+  <h1>Stories on Gender Equality</h1>
+  <p>
+    In Kenya, a recent initiative launched by grassroots organizations is empowering rural women through access to microloans and agricultural training. Many of these women, once economically dependent, are now leading their communities in sustainable farming. The project is not only enhancing livelihoods but also challenging traditional gender roles in rural society.
+  </p>
+  <div class="imges">
+<img src="wome.png" alt=""><img src="women.jpeg" alt="">
+</div>
+
+
+  <p>
+    Iceland continues to lead in gender equality by enforcing pay transparency laws that require companies to prove equal pay for equal work. This policy has significantly reduced the wage gap and serves as a global example. Women in Iceland now enjoy one of the highest levels of economic and political participation in the world.
+  </p>
+  <div class="imges">
+    <img src="180112-iceland-women-mc-9302.webp" alt=""><img src="iceland.webp" alt="">
+    </div>
+</body>
+</html>

@@ -1,0 +1,105 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+     color: white; 
+     font-family: sans-serif;
+}
+.all{
+    padding-top: 10rem;
+    text-align: center;
+    
+}
+.cedarville-cursive-regular {
+    font-family: "Cedarville Cursive", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+
+body{
+    background-image: url(Pictures/netflix-animated-movies.jpg);
+    background-attachment: fixed;
+    border: 1px solid black;
+    backdrop-filter: blur(10px);
+    height: 1000dvh;
+    position: sticky;
+}
+#icon{
+    margin-left: 1rem;
+    margin-top: 0.6rem;
+}
+.topest{
+    display: flex;
+    justify-content: space-between;
+}
+.topest > h1{
+    color: red;
+    font-family: normal;
+    padding-top: 20px;
+    padding-left: 100px;
+    font-size:2rem;
+}
+.topest > a{
+    background-color: red;
+    border: 1px;
+    border-radius: 2px;
+    width: 6.5rem;
+    font-size: medium;
+    margin-top: 20px;
+    padding: 10px;
+    margin-right:100px;
+    color: white;
+    font-style: normal;
+    font-weight: 700;
+    height: 2rem;
+}
+.all > h1{
+    text-align: center;
+    font-weight: 900;
+    font-size: 3rem;
+    color: white;
+
+}
+.all > p{
+    padding-top: 1rem;
+    font-weight: 700;
+}
+.all section > button{
+    margin-top: 1rem;
+    margin-left: 0.5rem;
+    background-color: red;
+    border-radius: 2px;
+    width: 10rem;
+    height: 3rem;
+    border: 1px;
+    margin-top: 20px;
+    margin-right:100px;
+    color: white;
+    font-size: large;
+    font-style: normal;
+    font-weight: 700;
+}
+.all section > input,.Search{
+    font-weight: 300;
+    font-size: large;
+    width: 20rem;
+    height: 3rem;
+    border: 1px;
+    border-radius: 2px;
+    padding-left: 1rem;
+    border: 1px solid gray;
+    background-color: rgba(0, 0, 0, 0.653);
+}
+a{
+    text-decoration: none;
+   
+}
+p{
+    
+    padding-top:13rem;
+    padding-left: 5rem;
+}
+button:local-link{
+    color: grey;
+}
