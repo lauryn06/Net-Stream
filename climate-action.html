@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap" rel="stylesheet">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="series.css">
+  <title>Net-Stream</title>
+  <style>
+      
+        *{
+            padding: 0;
+            margin: 0;
+            color: white;
+        }
+       /* Base Styles */
+img {
+  width: 30rem;  
+  height: 25rem;
+  border-radius: 10px;
+  padding-left: 5rem;
+  padding: 3rem 1rem 0 1rem; 
+}
+.imges{
+  display: flex;
+  flex-wrap: wrap;
+}
+h2, h3, p {
+  font-size: 2rem;
+  padding-top: 2rem;
+  text-align: center;
+}
+
+/* Tablet and below */
+@media (max-width: 768px) {
+  .imges{
+    align-items: center;
+  flex-wrap: wrap;
+}
+
+  h2, h3, p {
+    font-size: 1.5rem;
+  }
+
+  img {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+}
+
+/* Phone screens */
+@media (max-width: 480px) {
+  .imges{
+    align-items: center;
+  flex-wrap: wrap;
+}
+
+  h2, h3, p {
+    font-size: 1.2rem;
+  }
+
+  img {
+   max-width: 400px;
+   
+  }
+}
+
+/* Large screens */
+@media (min-width: 1200px) {
+  .imges{
+  
+  flex-wrap: wrap;
+}
+
+  h2, h3, p {
+    font-size: 2.5rem;
+  }
+
+  img {
+    padding: 3rem;
+    
+  }
+}
+
+  </style>
+</head>
+<body>
+    <nav class="top">
+        <h1 class="
+        cedarville-cursive-regular">NetStream</h1>
+        <div class="hd">
+          <h4 ><a href="homee.html"><i class="fa fa-home" id="home_icon"></i></a></h4>             
+            <h4>
+
+                <label style="color: white;" for="entertainment" id="enter">Entertainment</label>
+        <select   style="color: black; background-color: grey;" id="entertainment" onchange="location = this.value;">
+           <option value="">--Select--</option> 
+          <option  value="Movies.html">Movies</option>
+          <option value="series.html">Series</option>
+          <option value="Anime.html">Anime</option>
+          <option value="K-drama.html">K-Drama</option>
+        </select>
+             </h4>
+             <h4>
+                <label style="color: white;" for="sdg">News</label>
+                <select  style="color: black; background-color: grey;" id="sdg" onchange="location = this.value;">
+                  <option value="">--Select-Themes--</option>
+                  <option value="quality-education.html">Education </option>
+                  <option value="climate-action.html">Climate</option>
+                  <option value="gender-equality.html">Gender Equality</option>
+                </select>  
+             </h4>
+
+             <h4>
+              <label for="music" style="color: white;">Music:</label>
+              <select id="music" name="music" style="color: black; background-color: gray;" onchange="window.location.href=this.value;">
+                  <option value="malawi.html">Malawi</option>
+                  <option value="international.html">International</option>
+              </select>
+          </h4>
+    <h4><i class="far fa-user-circle" id="home_icon"></i>
+    </div>
+</nav>
+    
+    <h1>Latest Climate Developments </h1>
+
+    <h2>Global Coral Bleaching Reaches Record Levels</h2>
+
+    <p>
+      In 2025, over 84% of the world's coral reefs are experiencing severe bleaching, the most widespread event on record. Driven by unprecedented ocean heat linked to climate change and El Niño, this crisis threatens marine biodiversity and coastal communities reliant on reef ecosystems. Urgent global action is needed to mitigate further damage. <a href="https://www.msn.com/en-gb/news/world/experts-say-coral-reef-bleaching-near-record-level-globally-because-of-crazy-ocean-heat/ar-BB1mwa4g?ocid=BingNewsVerp">For More Info</a>
+    </p>
+      <div class="imges"> <img src="bleach.png" alt=""><img src="bleaching.jpeg" alt=""></div>
+     
+    </p>
+  
+    <h2>Malawi Launches Climate-Health Initiative</h2>
+    <img src="cli.jpeg" alt=""><img src="climate.jpeg" alt="">
+    <p>
+    A $37 million program in southern Malawi aims to bolster health resilience against climate-induced risks. Targeting 1.7 million people, it focuses on early warning systems for diseases like malaria and cholera, which are exacerbated by climate events such as floods and droughts. The initiative emphasizes support for vulnerable populations.
+
+    <a href="https://www.bing.com/ck/a?!&&p=0a8f1e42b0aa6297f59a2d635c6f56fa477cac859749a7596c4564cb85d5fa5fJmltdHM9MTc0NTM2NjQwMA&ptn=3&ver=2&hsh=4&fclid=336d162b-e051-6655-3328-0283e17267a6&psq=+A+%2437+million+program+in+southern+Malawi+aims+to+bolster+health+resilience+against+climate-induced+risks.+Targeting+1.7+million+people%2c+it+focuses+on+early+warning+systems+for+diseases+like+malaria+and+cholera%2c+which+are+exacerbated+by+climate+events+such+as+floods+and+droughts.+The+initiative+emphasizes+support+for+vulnerable+population+&u=a1aHR0cHM6Ly9mdXJ0aGVyYWZyaWNhLmNvbS8yMDI0LzEwLzI1L2dyZWVuLWNsaW1hdGUtZnVuZC1sYXVuY2hlcy11czM3bS1pbml0aWF0aXZlLWZvY3VzZWQtb24tdnVsbmVyYWJsZS1ncm91cHMtaW4tbWFsYXdpLyM6fjp0ZXh0PVRoZSUyMEdyZWVuJTIwQ2xpbWF0ZSUyMEZ1bmQlMkMlMjBpbiUyMHBhcnRuZXJzaGlwJTIwd2l0aCUyMHRoZSxhaW1lZCUyMGF0JTIwZW5oYW5jaW5nJTIwaGVhbHRoJTIwcmVzaWxpZW5jZSUyMGluJTIwc291dGhlcm4lMjBNYWxhd2ku&ntb=1">For More Info</a>
+      
+  
+    <h2>Climate Change Threatens Malawi's Food Security</h2>
+    <img src="food.jpeg" alt=""><img src="foods.jpeg" alt="">
+    <p>
+      Malawi faces escalating food insecurity due to climate change. Cyclone Freddy in 2023 displaced 700,000 people and destroyed crops, followed by a historic drought induced by El Niño. With erratic rainfall and frequent extreme weather events, millions are at risk, highlighting the urgent need for climate adaptation strategies.
+    </p>
+
+</body>
+</html>

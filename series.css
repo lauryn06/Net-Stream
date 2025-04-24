@@ -1,0 +1,259 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    color: white;
+   
+}
+ #exit{
+  color: white;
+  font-size: 1rem;
+  padding-top: 1rem;
+} 
+body{
+    background-image: url(Pictures/netflix-animated-movies.jpg);
+    background-attachment: fixed;
+    border: 1px solid black;
+    backdrop-filter: blur(10px);
+    /* height: 1000dvh; */
+    position: sticky;
+    
+}
+.trending{
+  text-align: center;
+  font-weight: 900;
+display: flex;
+margin: 1rem;
+border-bottom: 5px solid black;
+
+}
+.cedarville-cursive-regular {
+  font-family: "Cedarville Cursive", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+.images img{
+   width: 100%;
+  height: auto;
+
+  border-radius: 10px;
+  box-shadow: 5px 5px 3px black;
+}
+h4{
+  color: red;
+  font-size: 1rem;
+  padding-left: 5rem;
+}
+.trending > img:first-child,
+.images div:first-child > img {
+  margin-left: 0;
+  padding-left: 1rem;
+}
+
+.trending div > img, .images div > img{
+  width: 10rem;
+  height: 10rem;
+  box-shadow: 5px 5px 3px black;
+  border-radius: 10px;
+}
+.images{
+  display: flex;
+gap:1rem;
+
+
+} 
+
+p{
+
+        padding-top:13rem;
+        padding-left: 5rem;
+    }
+    .images > div{
+        border-radius: 10px;
+     width: 10rem;
+    }
+    div > a{
+        padding-left: 1.5rem;
+    }
+    input{
+        
+        font-weight: 300;
+        font-size: large;
+        width: 15rem;
+        height: 3rem;
+        margin-right: 1rem;
+        border: none;
+        border-radius: 2px;
+        padding-left: 1rem;
+        background-color: rgba(0, 0, 0, 0.147);
+       
+    }
+    .searching {
+        display: flex;
+        width: 17rem;
+        height: 3rem;
+        border: 1px solid gray;
+        border-radius: 10px;
+        margin-top: 2rem;
+        margin-right: 2rem;
+        background-color: rgba(0, 0, 0, 0.79);
+    
+    }
+    #home_icon{
+        color: white;
+        font-size: medium;
+        padding-top: 0.1rem;
+        padding-right: 0.1rem;
+        
+    }
+    #home_icon:hover{
+      color: red;
+    }
+    i{
+  
+      color: gold;
+      font-size: small;
+      font-weight: 200;
+      
+    }
+    #first{
+      padding-left: 1.5rem;
+    }
+ 
+    /* -------------------- Medium Screens (Tablets) -------------------- */
+@media (max-width: 768px) {
+    .images {
+     
+     flex-wrap: wrap;
+    }
+    body{
+      position: sticky;
+    }
+
+  .trending,.images > div{
+    flex-wrap: wrap;
+  }
+  .trending > img,  .images div > img{
+    flex-wrap: wrap;
+    width: 8rem;
+  }
+    .searching {
+      padding-top: 1rem;
+      width: 70%;
+      margin: 1rem auto;
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    input {
+      width: 70%;
+      margin-bottom: 0.5rem;
+    }
+  
+    p {
+      padding-top: 8rem;
+      padding-left: 2rem;
+      font-size: 1rem;
+    }
+  }
+  
+  /* -------------------- Small Screens (Phones) -------------------- */
+  @media (max-width: 480px) {
+    .images {
+     flex-direction: column;
+     flex-wrap: wrap;
+    }
+    body{
+      position: sticky;
+    }
+  
+    .images div > img {
+      flex-direction: column;
+      flex-wrap: wrap;
+      width: 50%;
+      height: 50%;
+      margin-left: 0;
+    }
+  
+    .images > div {
+      width: 90%;
+      margin: 1rem auto;
+    }
+  
+    .searching {
+      width: 90%;
+      margin: 1rem auto;
+      flex-direction: column;
+      align-items: center;
+    }
+    body{
+      backdrop-filter: blur(20px);
+    }
+  
+    input {
+      width: 100%;
+      margin-right: 0;
+      padding: 0.5rem;
+      font-size: 1rem;
+    }
+  
+    p {
+      padding-top: 4rem;
+      padding-left: 1rem;
+      font-size: 0.9rem;
+    }
+  
+    div > a {
+      padding-left: 1rem;
+    }
+  }
+  
+  /* -------------------- Large Screens (Desktops) -------------------- */
+  @media (min-width: 769px) {
+    .images {
+     
+     flex-wrap: wrap;
+    }
+  
+    .images div > img {
+       width: 10rem;
+      height: 10rem; 
+      margin-left: 1rem;
+    }
+    body{
+      position: sticky;
+    }
+  
+    .images > div {
+      width: 10rem;
+    }
+  
+    .searching {
+      flex-direction: row;
+      justify-content: flex-start;
+    }
+  option{
+    color: black;
+    font-weight: bold;
+  }
+    input {
+      width: 15rem;
+    }
+  }
+ .trending div >img{
+    margin-top: 1rem;
+   margin-left: 1rem;
+
+   
+    
+  }
+
+ 
+.tap{
+  /* background-color: rgba(255, 0, 0, 0.967); */
+ height: 5rem;
+  border-radius: 10px;
+}
+  
