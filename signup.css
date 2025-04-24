@@ -23,7 +23,7 @@ body{
     background-attachment: fixed;
     border: 1px solid black;
     backdrop-filter: blur(10px);
-    /* height: 1000dvh; */
+   
     position: sticky;
     
 }
