@@ -13,7 +13,8 @@
   padding-top: 1rem;
 } 
 body{
-    background-image: url(netflix-animated-movies.jpg);
+/*     background-image: url(netflix-animated-movies.jpg); */
+    background-color:black;
     background-attachment: fixed;
     border: 1px solid black;
     backdrop-filter: blur(10px);
